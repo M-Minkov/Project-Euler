@@ -26,6 +26,8 @@ def find_largest_prime(n):
         
         if prime:
             primes.append(i)
+        
+        prime = True
 
     for i in range(len(primes)-1, -1, -1):
         if n % primes[i] == 0:
