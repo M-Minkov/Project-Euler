@@ -1,4 +1,4 @@
-# ProjectEulerSolutions
+# Solutions of Project Euler Problems
 Collection of project euler problems I've solved.
 
 Some problems containing different methods, and implemented in different languages.
