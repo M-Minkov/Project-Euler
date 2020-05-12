@@ -32,3 +32,7 @@ def find_largest_prime(n):
     for i in range(len(primes)-1, -1, -1):
         if n % primes[i] == 0:
             return primes[i]
+
+
+if __name__ == "__main__":
+    print(find_largest_prime(600851475143))
