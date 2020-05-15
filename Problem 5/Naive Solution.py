@@ -28,7 +28,7 @@ def smallest_multiple(n):
     answer = 0
 
     while not found:
-        answer += 20
+        answer += n
 
 
         found = True
